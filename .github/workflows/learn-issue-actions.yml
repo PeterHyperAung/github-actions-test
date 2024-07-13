@@ -19,7 +19,6 @@ jobs:
           issue-number: ${{ github.event.issue.number }}
           body: |
             This is a multi-line test comment for comment creation
-            This issue is created at ${{ github.event.issue.created_at }}
             - With GitHub **Markdown** :sparkles:
             - Created by [create-or-update-comment][1]
             [1]: https://github.com/peter-evans/create-or-update-comment
